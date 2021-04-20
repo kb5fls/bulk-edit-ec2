@@ -2,7 +2,7 @@
 
 # Created By: Phil Salem
 # Created Date: 04/20/2021
-# Version: 1.0
+# Version: 1.1
 
 # Purpose of script is to use AWS-tagger to bulk add tags based 
 # on user input.
