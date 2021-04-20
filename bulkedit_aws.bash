@@ -42,6 +42,6 @@ cat output.csv | while read line || [[ -n $line ]];
 
 do
 
-      aws-tagger --resource $line --tag "$tag:$value"
+      aws-tagger --resource $line --tag "$tag:$value" > /dev/null 2>&1
 
 done
